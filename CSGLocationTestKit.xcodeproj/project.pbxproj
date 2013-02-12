@@ -19,6 +19,14 @@
 		6C48AF2716CAE47600492C89 /* CSGMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C48AF2616CAE47600492C89 /* CSGMainViewController.m */; };
 		6C48AF2A16CAE47600492C89 /* CSGMainViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C48AF2816CAE47600492C89 /* CSGMainViewController_iPhone.xib */; };
 		6C48AF2D16CAE47600492C89 /* CSGMainViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C48AF2B16CAE47600492C89 /* CSGMainViewController_iPad.xib */; };
+		6C48AF3B16CAFACE00492C89 /* CSGLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C48AF3516CAFACE00492C89 /* CSGLocationManager.m */; };
+		6C48AF3C16CAFACE00492C89 /* CSGMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C48AF3716CAFACE00492C89 /* CSGMapViewController.m */; };
+		6C48AF3D16CAFACE00492C89 /* LincolnCountryClub.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 6C48AF3916CAFACE00492C89 /* LincolnCountryClub.gpx */; };
+		6C48AF3E16CAFACE00492C89 /* LincolnNE.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 6C48AF3A16CAFACE00492C89 /* LincolnNE.gpx */; };
+		6C48AF4316CAFAFE00492C89 /* CSGMapViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C48AF3F16CAFAFE00492C89 /* CSGMapViewController_iPad.xib */; };
+		6C48AF4416CAFAFE00492C89 /* CSGMapViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C48AF4116CAFAFE00492C89 /* CSGMapViewController_iPhone.xib */; };
+		6C48AF4716CAFC8D00492C89 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C48AF4616CAFC8D00492C89 /* CoreLocation.framework */; };
+		6C48AF4916CAFC9D00492C89 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C48AF4816CAFC9D00492C89 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +47,16 @@
 		6C48AF2616CAE47600492C89 /* CSGMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSGMainViewController.m; sourceTree = "<group>"; };
 		6C48AF2916CAE47600492C89 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CSGMainViewController_iPhone.xib; sourceTree = "<group>"; };
 		6C48AF2C16CAE47600492C89 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CSGMainViewController_iPad.xib; sourceTree = "<group>"; };
+		6C48AF3416CAFACE00492C89 /* CSGLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSGLocationManager.h; sourceTree = "<group>"; };
+		6C48AF3516CAFACE00492C89 /* CSGLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSGLocationManager.m; sourceTree = "<group>"; };
+		6C48AF3616CAFACE00492C89 /* CSGMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSGMapViewController.h; sourceTree = "<group>"; };
+		6C48AF3716CAFACE00492C89 /* CSGMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSGMapViewController.m; sourceTree = "<group>"; };
+		6C48AF3916CAFACE00492C89 /* LincolnCountryClub.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = LincolnCountryClub.gpx; sourceTree = "<group>"; };
+		6C48AF3A16CAFACE00492C89 /* LincolnNE.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = LincolnNE.gpx; sourceTree = "<group>"; };
+		6C48AF4016CAFAFE00492C89 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CSGMapViewController_iPad.xib; sourceTree = "<group>"; };
+		6C48AF4216CAFAFE00492C89 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CSGMapViewController_iPhone.xib; sourceTree = "<group>"; };
+		6C48AF4616CAFC8D00492C89 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6C48AF4816CAFC9D00492C89 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C48AF4916CAFC9D00492C89 /* MapKit.framework in Frameworks */,
+				6C48AF4716CAFC8D00492C89 /* CoreLocation.framework in Frameworks */,
 				6C48AF0E16CAE47600492C89 /* UIKit.framework in Frameworks */,
 				6C48AF1016CAE47600492C89 /* Foundation.framework in Frameworks */,
 				6C48AF1216CAE47600492C89 /* CoreGraphics.framework in Frameworks */,
@@ -75,6 +95,8 @@
 		6C48AF0C16CAE47600492C89 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6C48AF4816CAFC9D00492C89 /* MapKit.framework */,
+				6C48AF4616CAFC8D00492C89 /* CoreLocation.framework */,
 				6C48AF0D16CAE47600492C89 /* UIKit.framework */,
 				6C48AF0F16CAE47600492C89 /* Foundation.framework */,
 				6C48AF1116CAE47600492C89 /* CoreGraphics.framework */,
@@ -87,6 +109,8 @@
 			children = (
 				6C48AF1C16CAE47600492C89 /* CSGAppDelegate.h */,
 				6C48AF1D16CAE47600492C89 /* CSGAppDelegate.m */,
+				6C48AF3816CAFACE00492C89 /* gpx */,
+				6C48AF4516CAFB1D00492C89 /* managers */,
 				6C48AF3316CAE4EE00492C89 /* viewcontrollers */,
 				6C48AF1416CAE47600492C89 /* Supporting Files */,
 			);
@@ -114,8 +138,30 @@
 				6C48AF2616CAE47600492C89 /* CSGMainViewController.m */,
 				6C48AF2816CAE47600492C89 /* CSGMainViewController_iPhone.xib */,
 				6C48AF2B16CAE47600492C89 /* CSGMainViewController_iPad.xib */,
+				6C48AF3616CAFACE00492C89 /* CSGMapViewController.h */,
+				6C48AF3716CAFACE00492C89 /* CSGMapViewController.m */,
+				6C48AF3F16CAFAFE00492C89 /* CSGMapViewController_iPad.xib */,
+				6C48AF4116CAFAFE00492C89 /* CSGMapViewController_iPhone.xib */,
 			);
 			name = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		6C48AF3816CAFACE00492C89 /* gpx */ = {
+			isa = PBXGroup;
+			children = (
+				6C48AF3916CAFACE00492C89 /* LincolnCountryClub.gpx */,
+				6C48AF3A16CAFACE00492C89 /* LincolnNE.gpx */,
+			);
+			path = gpx;
+			sourceTree = "<group>";
+		};
+		6C48AF4516CAFB1D00492C89 /* managers */ = {
+			isa = PBXGroup;
+			children = (
+				6C48AF3416CAFACE00492C89 /* CSGLocationManager.h */,
+				6C48AF3516CAFACE00492C89 /* CSGLocationManager.m */,
+			);
+			name = managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +222,10 @@
 				6C48AF2416CAE47600492C89 /* Default-568h@2x.png in Resources */,
 				6C48AF2A16CAE47600492C89 /* CSGMainViewController_iPhone.xib in Resources */,
 				6C48AF2D16CAE47600492C89 /* CSGMainViewController_iPad.xib in Resources */,
+				6C48AF3D16CAFACE00492C89 /* LincolnCountryClub.gpx in Resources */,
+				6C48AF3E16CAFACE00492C89 /* LincolnNE.gpx in Resources */,
+				6C48AF4316CAFAFE00492C89 /* CSGMapViewController_iPad.xib in Resources */,
+				6C48AF4416CAFAFE00492C89 /* CSGMapViewController_iPhone.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +239,8 @@
 				6C48AF1A16CAE47600492C89 /* main.m in Sources */,
 				6C48AF1E16CAE47600492C89 /* CSGAppDelegate.m in Sources */,
 				6C48AF2716CAE47600492C89 /* CSGMainViewController.m in Sources */,
+				6C48AF3B16CAFACE00492C89 /* CSGLocationManager.m in Sources */,
+				6C48AF3C16CAFACE00492C89 /* CSGMapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +269,22 @@
 				6C48AF2C16CAE47600492C89 /* en */,
 			);
 			name = CSGMainViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		6C48AF3F16CAFAFE00492C89 /* CSGMapViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C48AF4016CAFAFE00492C89 /* en */,
+			);
+			name = CSGMapViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		6C48AF4116CAFAFE00492C89 /* CSGMapViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C48AF4216CAFAFE00492C89 /* en */,
+			);
+			name = CSGMapViewController_iPhone.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -321,6 +389,7 @@
 				6C48AF3216CAE47600492C89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
