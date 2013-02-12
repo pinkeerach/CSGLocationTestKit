@@ -8,7 +8,7 @@
 
 #import "CSGAppDelegate.h"
 
-#import "CSGViewController.h"
+#import "CSGMainViewController.h"
 
 @implementation CSGAppDelegate
 
@@ -17,9 +17,9 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        self.viewController = [[CSGViewController alloc] initWithNibName:@"CSGViewController_iPhone" bundle:nil];
+        self.viewController = [[CSGMainViewController alloc] initWithNibName:@"CSGViewController_iPhone" bundle:nil];
     } else {
-        self.viewController = [[CSGViewController alloc] initWithNibName:@"CSGViewController_iPad" bundle:nil];
+        self.viewController = [[CSGMainViewController alloc] initWithNibName:@"CSGViewController_iPad" bundle:nil];
     }
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];

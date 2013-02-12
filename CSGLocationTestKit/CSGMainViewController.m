@@ -6,13 +6,13 @@
 //  Copyright (c) 2013 Cardinal Solutions Group. All rights reserved.
 //
 
-#import "CSGViewController.h"
+#import "CSGMainViewController.h"
 
-@interface CSGViewController ()
+@interface CSGMainViewController ()
 
 @end
 
-@implementation CSGViewController
+@implementation CSGMainViewController
 
 - (void)viewDidLoad
 {

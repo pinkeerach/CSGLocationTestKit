@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CSGViewController : UIViewController
+@interface CSGMainViewController : UIViewController
 
 @end

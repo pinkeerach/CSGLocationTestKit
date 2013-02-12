@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@class CSGViewController;
+@class CSGMainViewController;
 
 @interface CSGAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) CSGViewController *viewController;
+@property (strong, nonatomic) CSGMainViewController *viewController;
 
 @end
